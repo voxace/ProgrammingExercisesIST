@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class AreaCalculator
+    class Project_11_AreaCalculator
     {
         static void Main(string[] args)
         {

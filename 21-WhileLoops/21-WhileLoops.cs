@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class WhileLoops
+    class Project_21_WhileLoops
     {
         static void Main(string[] args)
         {

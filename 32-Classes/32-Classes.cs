@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class Classes
+    class Project_32_Classes
     {
         static void Main(string[] args)
         {

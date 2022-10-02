@@ -8,7 +8,7 @@ using System.Text.Json;
 
 namespace ProgrammingExercisesIST
 {
-    internal class APIs
+    internal class Project_35_APIs
     {
         // Challenge: Create a program that can interact with an API
 

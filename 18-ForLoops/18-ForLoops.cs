@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class ForLoops
+    class Project_18_ForLoops
     {
         static void Main(string[] args)
         {

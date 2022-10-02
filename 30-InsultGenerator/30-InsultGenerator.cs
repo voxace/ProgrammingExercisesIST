@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class InsultGenerator
+    class Project_30_InsultGenerator
     {
         static void Main(string[] args)
         {

@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class Magic8Ball
+    class Project_29_Magic8Ball
     {
         static void Main(string[] args)
         {

@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class Parameters
+    class Project_14_Parameters
     {
         static void Main(string[] args)
         {

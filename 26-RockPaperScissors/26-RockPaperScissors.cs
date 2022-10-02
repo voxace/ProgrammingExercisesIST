@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class RockPaperScissors
+    class Project_26_RockPaperScissors
     {
         // Global variables
         static int userScore = 0;

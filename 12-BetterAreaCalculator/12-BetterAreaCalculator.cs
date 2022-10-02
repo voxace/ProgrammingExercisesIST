@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class BetterAreaCalculator
+    class Project_12_BetterAreaCalculator
     {
         static void Main(string[] args)
         {

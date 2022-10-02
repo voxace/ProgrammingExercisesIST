@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class DistanceConversion
+    class Project_16_DistanceConversion
     {
         static void Main(string[] args)
         {

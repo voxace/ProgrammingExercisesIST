@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class NestedLoops
+    class Project_23_NestedLoops
     {
         static void Main(string[] args)
         {

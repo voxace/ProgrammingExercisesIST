@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class Arrays
+    class Project_27_Arrays
     {
         static void Main(string[] args)
         {

@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class BabyBlackJack
+    class Project_31_BabyBlackJack
     {
         static void Main(string[] args)
         {

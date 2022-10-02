@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ProgrammingExercisesIST
 {
-    class Quiz
+    class Project_34_Quiz
     {
         static void Main(string[] args)
         {

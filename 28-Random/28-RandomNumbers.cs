@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class RandomNumbers
+    class Project_28_RandomNumbers
     {
         static void Main(string[] args)
         {

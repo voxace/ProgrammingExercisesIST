@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class GuessMyNumber
+    class Project_25_GuessMyNumber
     {
         static void Main(string[] args)
         {

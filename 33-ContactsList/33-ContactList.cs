@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ProgrammingExercisesIST
 {
-    class ContactList
+    class Project_33_ContactList
     {
         static void Main(string[] args)
         {

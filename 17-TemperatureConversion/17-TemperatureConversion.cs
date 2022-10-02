@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class TemperatureConversion
+    class Project_17_TemperatureConversion
     {
         static void Main(string[] args)
         {

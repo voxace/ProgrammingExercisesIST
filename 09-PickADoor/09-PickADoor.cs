@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class PickADoor
+    class Project_09_PickADoor
     {
         static void Main(string[] args)
         {

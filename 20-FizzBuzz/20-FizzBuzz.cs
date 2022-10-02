@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class FizzBuzz
+    class Project_20_FizzBuzz
     {
         static void Main(string[] args)
         {

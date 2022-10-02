@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class Pyramid
+    class Project_24_Pyramid
     {
         static void Main(string[] args)
         {

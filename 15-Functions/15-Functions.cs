@@ -2,7 +2,7 @@
 
 namespace ProgrammingExercisesIST
 {
-    class Functions
+    class Project_15_Functions
     {
         static void Main(string[] args)
         {
