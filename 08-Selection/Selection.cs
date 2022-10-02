@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _08_Selection
+namespace ProgrammingExercisesIST
 {
     class Selection
     {

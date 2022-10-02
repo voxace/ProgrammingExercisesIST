@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Text.Json;
 
-namespace _35_APIs
+namespace ProgrammingExercisesIST
 {
     internal class APIs
     {

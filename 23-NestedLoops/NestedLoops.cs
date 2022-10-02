@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _23_NestedLoops
+namespace ProgrammingExercisesIST
 {
     class NestedLoops
     {

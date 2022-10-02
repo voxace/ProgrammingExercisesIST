@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _14_Parameters
+namespace ProgrammingExercisesIST
 {
     class Parameters
     {

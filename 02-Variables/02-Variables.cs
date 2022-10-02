@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Year10ConsoleProjects
+namespace ProgrammingExercisesIST
 {
     class Project_02_Variables
     {

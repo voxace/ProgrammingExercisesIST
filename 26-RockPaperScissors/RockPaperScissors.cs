@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _26_RockPaperScissors
+namespace ProgrammingExercisesIST
 {
     class RockPaperScissors
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _21_WhileLoops
+namespace ProgrammingExercisesIST
 {
     class WhileLoops
     {

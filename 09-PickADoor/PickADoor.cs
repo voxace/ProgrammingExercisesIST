@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _09_PickADoor
+namespace ProgrammingExercisesIST
 {
     class PickADoor
     {

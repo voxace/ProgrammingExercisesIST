@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _30_InsultGenerator
+namespace ProgrammingExercisesIST
 {
     class InsultGenerator
     {

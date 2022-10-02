@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _13_Subroutines
+namespace ProgrammingExercisesIST
 {
     class Subroutines
     {

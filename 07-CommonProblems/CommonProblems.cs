@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _07_CommonProblems
+namespace ProgrammingExercisesIST
 {
     class CommonProblems
     {

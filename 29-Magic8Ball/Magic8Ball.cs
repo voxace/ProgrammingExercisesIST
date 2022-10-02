@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _29_Magic8Ball
+namespace ProgrammingExercisesIST
 {
     class Magic8Ball
     {

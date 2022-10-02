@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _06_NumberOperations
+namespace ProgrammingExercisesIST
 {
     class NumberOperations
     {

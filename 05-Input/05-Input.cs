@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _05_Input
+namespace ProgrammingExercisesIST
 {
     class Input
     {

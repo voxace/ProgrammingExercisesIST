@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _12_BetterAreaCalculator
+namespace ProgrammingExercisesIST
 {
     class BetterAreaCalculator
     {

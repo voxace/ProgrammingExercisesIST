@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _18_ForLoops
+namespace ProgrammingExercisesIST
 {
     class ForLoops
     {

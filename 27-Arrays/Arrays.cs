@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _27_Arrays
+namespace ProgrammingExercisesIST
 {
     class Arrays
     {

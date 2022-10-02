@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _16_DistanceConversion
+namespace ProgrammingExercisesIST
 {
     class DistanceConversion
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _20_FizzBuzz
+namespace ProgrammingExercisesIST
 {
     class FizzBuzz
     {

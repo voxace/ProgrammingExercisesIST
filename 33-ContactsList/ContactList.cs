@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace _33_ContactsList
+namespace ProgrammingExercisesIST
 {
     class ContactList
     {

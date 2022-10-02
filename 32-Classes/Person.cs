@@ -1,95 +1,95 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace _32_Classes
+namespace ProgrammingExercisesIST
 {
-    class Person
+    public class Person
     {
-        private string firstName;
-        private string lastName;
-        private int age;
-        private bool sitting;
-        private int steps;
+        private string _firstName;
+        private string _lastName;
+        private int _age;
+        private bool _isSitting;
+        private int _steps;
 
         public Person(string firstName, string lastName, int age)
         {
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.age = age;
-            sitting = true;
-            steps = 0;
+            _firstName = firstName;
+            _lastName = lastName;
+            _age = age;
+            _isSitting = true;
+            _steps = 0;
         }
 
         public void ChangeName(string firstName, string lastName)
         {
-            this.firstName = firstName;
-            this.lastName = lastName;
+            _firstName = firstName;
+            _lastName = lastName;
         }
 
         public void ChangeNamePrompt()
         {
-            Console.WriteLine($"Name is currently {this.firstName} {this.lastName}, enter new name.");
+            Console.WriteLine($"Name is currently {this._firstName} {this._lastName}, enter new name.");
             Console.Write("First Name: ");
             string firstName = Console.ReadLine();
             Console.Write("Last Name: ");
             string lastName = Console.ReadLine();
-            this.firstName = firstName;
-            this.lastName = lastName;
+            _firstName = firstName;
+            _lastName = lastName;
         }
 
         public void Walk(int steps)
         {
-            if (sitting)
+            if (_isSitting)
             {
                 Console.WriteLine("You can't walk while you are sitting");
             }
             else
             {
-                Console.WriteLine($"{firstName} {lastName} just walked {steps} steps");
-                this.steps += steps;
+                Console.WriteLine($"{_firstName} {_lastName} just walked {steps} steps");
+                _steps += steps;
             }
         }
 
         public void Birthday()
         {
-            age++;
+            _age++;
         }
 
         public void PrintInfo()
         {
-            if (sitting)
+            if (_isSitting)
             {
-                Console.WriteLine($"{firstName} {lastName} is {age} years old, is currently sitting " +
-                                  $"and has taken {steps} steps.");
+                Console.WriteLine($"{_firstName} {_lastName} is {_age} years old, is currently sitting " +
+                                  $"and has taken {_steps} steps.");
             }
             else
             {
-                Console.WriteLine($"{firstName} {lastName} is {age} years old, is currently standing " +
-                                  $"and has taken {steps} steps.");
+                Console.WriteLine($"{_firstName} {_lastName} is {_age} years old, is currently standing " +
+                                  $"and has taken {_steps} steps.");
             }
         }
 
         public void Sit()
         {
-            if (sitting)
+            if (_isSitting)
             {
-                Console.WriteLine($"{firstName} {lastName} is already sitting");
+                Console.WriteLine($"{_firstName} {_lastName} is already sitting");
             }
             else
             {
-                sitting = true;
+                _isSitting = true;
             }
         }
 
         public void Stand()
         {
-            if (sitting)
+            if (_isSitting)
             {
-                sitting = false;
+                _isSitting = false;
             }
             else
             {
-                Console.WriteLine($"{firstName} {lastName} is already standing");
+                Console.WriteLine($"{_firstName} {_lastName} is already standing");
             }
         }
     }

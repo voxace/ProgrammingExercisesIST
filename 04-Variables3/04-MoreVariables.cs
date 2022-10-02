@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _04_Variables3
+namespace ProgrammingExercisesIST
 {
     class Project_04_MoreVariables
     {

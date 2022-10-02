@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace _35_APIs
+namespace ProgrammingExercisesIST
 {
     public class F1API
     {

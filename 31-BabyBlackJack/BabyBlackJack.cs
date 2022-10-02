@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _31_BabyBlackJack
+namespace ProgrammingExercisesIST
 {
     class BabyBlackJack
     {

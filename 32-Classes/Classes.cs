@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _32_Classes
+namespace ProgrammingExercisesIST
 {
     class Classes
     {

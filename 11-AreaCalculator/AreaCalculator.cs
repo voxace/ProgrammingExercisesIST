@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _11_AreaCalculator
+namespace ProgrammingExercisesIST
 {
     class AreaCalculator
     {

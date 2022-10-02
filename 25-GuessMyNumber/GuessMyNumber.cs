@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _25_GuessMyNumber
+namespace ProgrammingExercisesIST
 {
     class GuessMyNumber
     {

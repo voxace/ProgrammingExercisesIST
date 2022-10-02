@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _28_Random
+namespace ProgrammingExercisesIST
 {
     class RandomNumbers
     {

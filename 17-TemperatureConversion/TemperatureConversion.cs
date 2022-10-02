@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _17_TemperatureConversion
+namespace ProgrammingExercisesIST
 {
     class TemperatureConversion
     {
