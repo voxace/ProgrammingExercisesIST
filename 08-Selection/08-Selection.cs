@@ -8,7 +8,7 @@ namespace ProgrammingExercisesIST
         {
             // Variables and Input
             Console.Write("Please enter a mark out of 100: ");
-            int mark = int.Parse(Console.ReadLine());
+            int mark = Convert.ToInt32(Console.ReadLine());
 
             // 1. Make the program print out:
             // "Pass" if the mark is 50 or above

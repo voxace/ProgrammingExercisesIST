@@ -6,20 +6,16 @@ namespace ProgrammingExercisesIST
     {
         static void Main(string[] args)
         {
-            // Menu
-            Console.Clear();
-            Console.WriteLine("Choose an Option:");
-            Console.WriteLine("1. Area of Circle");
-            Console.WriteLine("2. Area of Rectangle");
-            Console.WriteLine("3. Area of Triangle");
-            string choice = Console.ReadLine();
-
             // The code is starting to get longer and more difficult to read
-            // Here we are going to learn how to 'refactor code' into chunks
-            // I have already extracted the code for circles into its own subroutine
+            // Here we are going to learn how to 'refactor code' into chunks called methods
+            // I have already extracted the code for the menu and circles into methods
+
+            ShowMenu();
+            string choice = Console.ReadLine();
+            Console.WriteLine();            
 
             if (choice == "1")
-            {                
+            {
                 CalculateCircle();
             }
             else if (choice == "2")
@@ -29,7 +25,6 @@ namespace ProgrammingExercisesIST
                 // Right click and then choose "Quick actions and Refactorings"
                 // Then choose "Extract Method"
                 // Give it the name: "CalculateRectangle" (no spaces allowed)
-                Console.WriteLine();
                 Console.Write("Width: ");
                 float width = float.Parse(Console.ReadLine());
                 Console.Write("Length: ");
@@ -39,10 +34,9 @@ namespace ProgrammingExercisesIST
             else if (choice == "3")
             {
                 // TASK 2:
-                // I have already created a subroutine below called "CalculateTriangle"
+                // I have already created a method below called "CalculateTriangle"
                 // Instead of using the quick actions as above, try cutting and pasting the code below into it
                 // You will then have to write "CalculateTriangle();" here to 'call' it
-                Console.WriteLine();
                 Console.Write("Base: ");
                 float width = float.Parse(Console.ReadLine());
                 Console.Write("Height: ");
@@ -60,42 +54,68 @@ namespace ProgrammingExercisesIST
             Console.ReadKey();
         }
 
+        private static void ShowMenu()
+        {
+            Console.Clear();
+            Console.WriteLine("Choose an Option:");
+            Console.WriteLine("1. Area of Circle");
+            Console.WriteLine("2. Area of Rectangle");
+            Console.WriteLine("3. Area of Triangle");
+        }
+
         private static void CalculateCircle()
         {
-            Console.WriteLine();
             Console.Write("Radius: ");
             float radius = float.Parse(Console.ReadLine());
-            Console.WriteLine("Area: " + (Math.PI * radius * radius));
+            Console.WriteLine("Area: " + (Math.PI * Math.Pow(radius,2)));
         }
 
         private static void CalculateTriangle()
         {
 
         }
+
+        static void Questions()
+        {
+            /* 1. What is the purpose of splitting the code into smaller chunks (methods)?
+             * 
+             * 
+             * 
+             * 2. Why is it important to give a warning message to the user in the else statement?
+             * 
+             * 
+             * 
+             */
+        }
+
+        static void ExtensionTasks()
+        {
+            // 1. Add a trapezium option to the program. It should also be a separate method.
+        }
+
+        static void Example()
+        {
+            /* This is an example of the program's output:
+             * 
+             * Choose an Option:
+             * 1. Area of Circle
+             * 2. Area of Rectangle
+             * 3. Area of Triangle
+             * 
+             * 2
+             * 
+             * Enter Width: 3
+             * Enter Height: 4
+             * 
+             * The area of the rectangle is 12
+             * 
+             * "Press any key to continue...
+             */
+        }
+
+        static void Links()
+        {
+            // Methods: https://www.w3schools.com/cs/cs_methods.php
+        }
     }
 }
-
-/* ------------------------------------------------------------------------------------------ /
-
-TASK:
-
-Complete task 1 and 2 as outlined in the code.
-These tasks involve 'refactoring' the code into chunks.
-
-
-QUESTIONS:
-
-1. What is the purpose of splitting the code into smaller chunks?
-
-
-
-
-
-WHEN FINISHED:
-
-1. Click the Save All button
-2. Go to http://www.peergrade.io to submit this Program.cs file
-3. Give feedback to two of your classmates, and review the feedback you have received
-4. If the feedback suggests that there is room for improvement, you may come back and modify your code / answers
-   
-/ ------------------------------------------------------------------------------------------ */

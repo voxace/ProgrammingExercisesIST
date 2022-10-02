@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-AreaCalculator", "11-Are
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-BetterAreaCalculator", "12-BetterAreaCalculator\12-BetterAreaCalculator.csproj", "{4B9E868C-34C6-4303-8563-B890B9CE48EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-Subroutines", "13-Subroutines\13-Subroutines.csproj", "{15EDABA1-5735-4B26-9DAC-68CB89828549}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13-Methods", "13-Subroutines\13-Methods.csproj", "{15EDABA1-5735-4B26-9DAC-68CB89828549}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14-Parameters", "14-Parameters\14-Parameters.csproj", "{B8C47301-0103-42ED-8370-F8FAAF46DB24}"
 EndProject
