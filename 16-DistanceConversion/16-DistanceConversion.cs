@@ -13,31 +13,36 @@ namespace ProgrammingExercisesIST
             {
                 // 1. Create a function that converts km to miles
                 // 2. Output the result of the function
-                // NOTE: You can use the function "GetDistance" inside your new function
+                // NOTE: You can use the function "GetDistance" before or inside your new function
+
+
             }
             else if (choice == "2")
             {
                 // 3. Create a function that converts miles to km
                 // 4. Output the result of the function
-                // NOTE: You can use the function "GetDistance" inside your new function
+                // NOTE: You can use the function "GetDistance" before or inside your new function
+
+
             }
             else
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Invalid Choice!");
+                ErrorMessage("Invalid Choice!");
             }
 
             // Wait for key press before exiting
             WaitForKeyPress();
         }
 
-        private static int GetDistance(string unit)
+        // Asks the user to enter a distance in the unit specified
+        private static double GetDistance(string unit)
         {
             Console.Write($"Enter distance (in {unit}) to convert: ");
-            int distance = int.Parse(Console.ReadLine());
+            double distance = int.Parse(Console.ReadLine());
             return distance;
         }
 
+        // Shows the menu options to the user
         private static string MainMenu()
         {
             Console.Clear();
@@ -48,11 +53,35 @@ namespace ProgrammingExercisesIST
             return choice;
         }
 
+        // Waits for the user to press any key
         private static void WaitForKeyPress()
         {
             Console.WriteLine();
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
+        }
+
+        // Displays an error message in red text
+        private static void ErrorMessage(string message)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(message);
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
+        static void Questions()
+        {
+            /* 1. Explain in detail what this line of code does:  string choice = MainMenu();
+             * 
+             * 
+             * 
+             * 
+             */
+        }
+
+        static void ExtensionTasks()
+        {
+            // 1. Try adding options for 'centimetres to inches' and 'inches to centimetres'
         }
     }
 }

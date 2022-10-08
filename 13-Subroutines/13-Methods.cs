@@ -24,22 +24,26 @@ namespace ProgrammingExercisesIST
 
         static void Questions()
         {
-            // 1. What is a method?
-            // 
-            // 
-            // 2. What does the 'void' keyword mean?
-            // 
-            // 
-            // 3. What does it mean to 'call' a method?
-            // 
-            //
+            /* 1. What is a method?
+             * 
+             * 
+             * 
+             * 2. What does the 'void' keyword mean?
+             * 
+             * 
+             * 
+             * 3. What does it mean to 'call' a method? 
+             * 
+             * 
+             * 
+             */
         }
 
         static void ExtensionTasks()
         {
             // 1. Try creating extra methods that do whatever you like
             // 2. Try calling the methods multiple times
-            // 3. Try calling one methods from within another
+            // 3. Try calling methods from within another
         }
 
         static void Links()

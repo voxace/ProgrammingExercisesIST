@@ -26,43 +26,45 @@ namespace ProgrammingExercisesIST
 
         static void ExtensionTasks()
         {
-            // 1. Try expanding the selection into multiple 'else if' and 'else' statements
-            // 2. Try changing the values of the loop counter from within the loop
+            // 1. Try using multiple 'else if' and 'else' statements to expand the functionality of each loop
         }
 
         static void Questions()
         {
-            // 1. What is the shortcut for creating a FOR loop?
-            // 
-            // 
-            // 2. What does the % operator do?
-            // 
-            // 
+            /* 1. What is the shortcut for creating a FOR loop?
+             * 
+             * 
+             * 
+             * 2. What does the modulus (%) operator do?
+             * 
+             * 
+             * 
+             */ 
         }
 
         static void Example()
         {
             // This is an example of creating a loop that goes from 1 to 10
-            // It will print out "Hello there" only if the loop counter = 7
-            //
-            // for (int num = 1; num < 11; num++)
-            // {
-            //     if(num == 7) 
-            //     {
-            //         Console.WriteLine("Hello there");
-            //     }
-            // }
+            // It will print out "Found 7" only if the loop counter = 7
+
+            for (int num = 1; num < 11; num++)
+            {
+                if(num == 7) 
+                {
+                    Console.WriteLine("Found 7");
+                }
+            }
 
             // This is an example of creating a loop that prints only numbers divisible by 3
             // It does this by using the modulo operator % which finds the remainder of a division
-            //
-            // for (int counter = 0; counter < 100; counter++)
-            // {
-            //     if(counter % 3 == 0)
-            //     { 
-            //         Console.WriteLine(counter);
-            //     }
-            // }
+
+            for (int counter = 0; counter < 100; counter++)
+            {
+                if(counter % 3 == 0)
+                { 
+                    Console.WriteLine(counter);
+                }
+            }
         }
 
         private static void WaitAtEnd()

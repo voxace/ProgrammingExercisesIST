@@ -13,7 +13,7 @@ namespace ProgrammingExercisesIST
             WaitAtEnd();
         }
 
-        void Task()
+        static void FizzBuzz()
         {
             // Write a program that prints the integers from 1 to 100, but:
             // - For multiples of three, print “Fizz”  (instead of the number)
@@ -27,6 +27,16 @@ namespace ProgrammingExercisesIST
             Console.WriteLine();
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
+        }
+
+        static void Questions()
+        {
+            /* 1. Why is the order of the conditions in the if statements important?
+             * 
+             * 
+             * 
+             * 
+             */
         }
     }
 }

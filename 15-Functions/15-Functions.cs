@@ -7,39 +7,36 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Input two numbers
-            Console.Write("Enter number 1: ");
-            int x = int.Parse(Console.ReadLine());
-            Console.Write("Enter number 2: ");
-            int y = int.Parse(Console.ReadLine());
-
-            // EXAMPLE: Use the function "AddNumbers" and print the result
-            int additionResult = AddNumbers(x, y);
-            Console.WriteLine($"{x} plus {y} equals {additionResult}");
-
-            // EXAMPLE 2: Using "AddNumbers" with the numbers 3 and 7 instead of the inputs
-            int additionResult2 = AddNumbers(3, 7);
-            Console.WriteLine($"3 plus 7 equals {additionResult2}");
+            int x = GetNumber();
+            int y = GetNumber();
 
             // 1. Create a function called MultiplyNumbers that takes two integers, multiplies them and returns the result
-            // 2. Create a variable called "multiplicationResult" of type 'int' and assign it the result of the MultiplyNumbers function using 7 and 5
+            // 2. Create a variable called "multiplicationResult" of type 'int' and assign it the result of the MultiplyNumbers, passing in x and y
+            // 3. Finally, output "multiplicationResult" using Console.WriteLine
 
 
-            // 3. Output the result of the multiplication below. E.g. 7 times 5 = 35
+
+            // 4. Output the result of the MultiplyNumbers function directly in a Console.WriteLine, using any numbers as the parameters
 
 
-            // 4. Output the result of the MultiplyNumbers function using x and y with only one line of code
 
-
-            // The "Wait" subroutine is called here
+            // "Wait" method is called here
             Wait();
         }
 
-        // This functions takes two numbers, adds them and returns the answer
-        private static int AddNumbers(int num1, int num2)
+
+
+        // Create your function "MultiplyNumbers" for task 1 here:
+
+
+        // This is a function I have written to get a number from the user
+        private static int GetNumber()
         {
-            return num1 + num2;
+            Console.Write("Enter number: ");
+            return int.Parse(Console.ReadLine());
         }
 
+        // This is a method used to wait for any key to be pressed
         private static void Wait()
         {
             Console.WriteLine();
@@ -47,14 +44,37 @@ namespace ProgrammingExercisesIST
             Console.ReadKey();
         }
 
+        static void Examples()
+        {
+            // Two numbers to use
+            int x = 9;
+            int y = 6;
+
+            // EXAMPLE: Use the function "AddNumbers" and print the result
+            int additionResult = AddNumbers(x, y);
+            Console.WriteLine($"{x} plus {y} equals {additionResult}");
+
+            // EXAMPLE 2: Using "AddNumbers" directly in a Console.WriteLine, with the numbers 3 and 7
+            Console.WriteLine($"3 plus 7 equals {AddNumbers(3, 7)}");
+        }
+
+        // EXAMPLE FUNCTION: This functions takes two numbers, adds them and returns the answer
+        private static int AddNumbers(int num1, int num2)
+        {
+            return num1 + num2;
+        }
+
         static void Questions()
         {
-            // 1. What is a function?
-            // 
-            // 
-            // 2. What does a function do that a subroutine does not?
-            // 
-            // 
+            /* 1. What is a function?
+             * 
+             * 
+             * 
+             * 2. What does a function do that a method does not?
+             * 
+             * 
+             * 
+             */
         }
 
         static void ExtensionTasks()

@@ -11,7 +11,7 @@ namespace ProgrammingExercisesIST
             // 1. Fix the condition of the WHILE loop so that the program works
             Console.WriteLine("Please enter a number less than 100 to continue...");
             int number = int.Parse(Console.ReadLine());
-            while( ???? )
+            while(number == 7)
             {
                 Console.WriteLine("Incorrect input, try again...");
                 number = int.Parse(Console.ReadLine());
@@ -22,6 +22,7 @@ namespace ProgrammingExercisesIST
 
             // 2. Write a WHILE loop to ensure the user enters a correct password of your choosing
             // Then, under the loop, output a message of your choice
+
 
 
 
@@ -37,36 +38,39 @@ namespace ProgrammingExercisesIST
 
         static void Questions()
         {
-            // 1. What is the shortcut for creating a WHILE loop?
-            // 
-            // 
-            // 2. When would you use a WHILE loop?
-            // 
-            // 
+            /* 1. What is the shortcut for creating a WHILE loop?
+             * 
+             * 
+             * 
+             * 2. When would you use a WHILE loop?
+             * 
+             * 
+             * 
+             */ 
         }
 
         static void Example()
         {
             // This is an example of creating a WHILE loop that goes from 1 to 10
             // Notice that you need to initialise your own counter variable and increment it
-            //
-            // int count = 1;
-            // while(count < 11)
-            // {
-            //     Console.WriteLine(count);
-            //     count++;
-            // }
+
+            int count = 1;
+            while(count < 11)
+            {
+                Console.WriteLine(count);
+                count++;
+            }
 
             // As you can tell, FOR loops are generally easier for counting
             // This is an example of where a WHILE loop might be handy
-            //
-            // string password = Console.ReadLine();
-            // while(password != "hunter2")
-            // {
-            //     Console.WriteLine("Invalid password. Try again: ");
-            //     password = Console.ReadLine();
-            // }
-            // RunSecureProgramAfterPasswordCheck();
+
+            string password = Console.ReadLine();
+            while(password != "hunter2")
+            {
+                Console.WriteLine("Invalid password. Try again: ");
+                password = Console.ReadLine();
+            }
+            Console.WriteLine("Login Successful!");
         }
 
         static void Links()

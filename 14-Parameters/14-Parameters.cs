@@ -6,16 +6,16 @@ namespace ProgrammingExercisesIST
     {
         static void Main(string[] args)
         {
-            // 1. Create a subroutine called "SayHello" to print the message "Hello (name)"
+            // 1. Create a method called "SayHello" to print the message "Hello (name)"
 
 
-            // Example: The following subroutine takes two integers, adds them and prints the result.
+            // Example: The following method takes two integers, adds them and prints the result.
             AddNumbers(3, 7);
 
-            // 2. Create a subroutine called "SubtractNumbers" that takes two integers, subtracts one and prints the result
+            // 2. Create a method called "SubtractNumbers" that takes two integers, subtracts one and prints the result
 
 
-            // The "Wait" subroutine is called here. Notice it takes a colour as a parameter.
+            // The "Wait" method is called here. Notice it takes a colour as a parameter.
             Wait(ConsoleColor.Blue);
         }
 
@@ -37,19 +37,22 @@ namespace ProgrammingExercisesIST
 
         static void Questions()
         {
-            // 1. What is a parameter?
-            // 
-            // 
-            // 2. When writing a subroutine, what two things do you need to supply to create a parameter for it?
-            // 
-            // 
+            /* 1. What is a parameter?
+             * 
+             * 
+             * 
+             * 2. When writing a method, what two things do you need to supply to create a parameter for it?
+             *    E.g. static void MyMethod(firstThing secondThing)
+             * 
+             * 
+             * 
+             */
         }
 
         static void ExtensionTasks()
         {
-            // 1. Try creating extra subroutines with parameters that do whatever you like
-            // 2. Try calling a subroutine with a parameter from within another
-            // 3. Experiment with different data types for the parameters
+            // 1. Try creating extra methods with parameters that do whatever you like
+            // 3. Experiment with multiple parameters and different data types for the parameters
         }
 
         static void Links()

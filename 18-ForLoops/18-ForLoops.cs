@@ -36,47 +36,63 @@ namespace ProgrammingExercisesIST
             // that counts from 60 down to 30 in steps of 3
 
 
+
+            WaitBetween("2 to the power of 0 through to 9");
+
+            // 5. Make your own FOR loop (press TAB twice quickly).
+            // Use it to print out the values of '2 to the power of 0 through to 9'
+
+
+
             // Wait at end
             WaitAtEnd();
         }
 
         static void ExtensionTasks()
         {
-            // 1. Try using  user input before the loop starts to control the way it works 
-            // 2. Try using selection inside the loop to do different things based on the counter
+            // 1. Try using  user input before the loop starts to control how many times it loops 
+            // 2. Try using selection (if statements) inside the loop to do different things based on the counter
         }
 
         static void Questions()
         {
-            // 1. Explain what each part of the FOR loop does:
-            //  a) int i = 0;
-            //     
-            //     
-            //  b) i <= 100;
-            //     
-            //     
-            //  c) i++
-            //     
-            //     
+            /* 1. Explain what each part of the FOR loop does:
+             * a) int i = 0;
+             * 
+             * 
+             * 
+             * b) i <= 100;
+             * 
+             * 
+             * 
+             * c) i++
+             * 
+             * 
+             * 
+             */     
         }
 
-        static void Example()
+        static void Examples()
         {
             // Some example FOR loops: Notice that the counter variable can be called anything
 
             // This is an example of creating a loop that print the numbers from 1 to 10
-            //
-            // for (int num = 1; num < 11; num++)
-            // {
-            //     Console.WriteLine(num);
-            // }
+            for (int num = 1; num < 11; num++)
+            {
+                Console.WriteLine(num);
+            }
 
             // This is an example of creating a loop that print the numbers from 10 down to 1
-            //
-            // for (int whatever = 10; whatever > 0; whatever--)
-            // {
-            //     Console.WriteLine(whatever);
-            // }
+            for (int whatever = 10; whatever > 0; whatever--)
+            {
+                Console.WriteLine(whatever);
+            }
+
+            // This is an example of incrementing (stepping) by more than one
+            for (int x = 0; x < 10; x += 3)
+            {
+                Console.WriteLine(x);
+            }
         }
 
         static void Links()

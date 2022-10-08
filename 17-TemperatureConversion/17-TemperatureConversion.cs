@@ -9,7 +9,8 @@ namespace ProgrammingExercisesIST
             /* TASK:
              * Implement a program that can convert from Fahrenheit to Celcius
              * and from Celcius to Fahrenheit. The user chooses which to do.
-             * This program must make use of what we have learnt about functions. 
+             * This program must make use of what we have learnt about functions.
+             * Look back at the "DistanceConversion" program if you get stuck.
              */
 
 
@@ -36,15 +37,15 @@ namespace ProgrammingExercisesIST
                 
 
                 BEGIN CelciusToFahrenheit
-                    float c = GetTemperature("Celcius")
-                    float f = (c * 9/5) + 32
+                    c = GetTemperature("Celcius")
+                    f = (c * 9/5) + 32
                     RETURN f
                 END CelciusToFahrenheit 
 
 
                 BEGIN FahrenheitToCelcius
-                    float f = GetTemperature("Celcius")
-                    float c = (f − 32) x 5/9
+                    f = GetTemperature("Celcius")
+                    c = (f − 32) x 5/9
                     RETURN c
                 END FahrenheitToCelcius
                 
