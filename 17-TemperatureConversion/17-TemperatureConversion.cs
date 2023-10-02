@@ -44,7 +44,7 @@ namespace ProgrammingExercisesIST
 
 
                 BEGIN FahrenheitToCelcius
-                    f = GetTemperature("Celcius")
+                    f = GetTemperature("Fahrenheit")
                     c = (f − 32) x 5/9
                     RETURN c
                 END FahrenheitToCelcius

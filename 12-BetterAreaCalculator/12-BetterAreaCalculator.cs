@@ -20,28 +20,15 @@ namespace ProgrammingExercisesIST
             }
             else if (choice == "2")
             {
-                // TASK 1:
-                // Highlight the code for calculating the rectangle
-                // Right click and then choose "Quick actions and Refactorings"
-                // Then choose "Extract Method"
-                // Give it the name: "CalculateRectangle" (no spaces allowed)
-                Console.Write("Width: ");
-                float width = float.Parse(Console.ReadLine());
-                Console.Write("Length: ");
-                float length = float.Parse(Console.ReadLine());
-                Console.WriteLine("Area: " + (width * length));
+                CalculateRectangle();
             }
             else if (choice == "3")
             {
-                // TASK 2:
-                // I have already created a method below called "CalculateTriangle"
-                // Instead of using the quick actions as above, try cutting and pasting the code below into it
-                // You will then have to write "CalculateTriangle();" here to 'call' it
-                Console.Write("Base: ");
-                float width = float.Parse(Console.ReadLine());
-                Console.Write("Height: ");
-                float height = float.Parse(Console.ReadLine());
-                Console.WriteLine("Area: " + (0.5 * width * height));
+                CalculateTriangle();
+            }
+            else if(choice == "4")
+            {
+                CalculateTrapezium();
             }
             else
             {
@@ -52,6 +39,25 @@ namespace ProgrammingExercisesIST
             Console.WriteLine();
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
+        }
+
+        private static void CalculateTrapezium()
+        {
+            Console.WriteLine("Coming soon!");
+        }
+
+        private static void CalculateRectangle()
+        {
+            // TASK 1:
+            // Highlight the code for calculating the rectangle
+            // Right click and then choose "Quick actions and Refactorings"
+            // Then choose "Extract Method"
+            // Give it the name: "CalculateRectangle" (no spaces allowed)
+            Console.Write("Width: ");
+            float width = float.Parse(Console.ReadLine());
+            Console.Write("Length: ");
+            float length = float.Parse(Console.ReadLine());
+            Console.WriteLine("Area: " + (width * length));
         }
 
         private static void ShowMenu()
@@ -72,7 +78,15 @@ namespace ProgrammingExercisesIST
 
         private static void CalculateTriangle()
         {
-
+            // TASK 2:
+            // I have already created a method below called "CalculateTriangle"
+            // Instead of using the quick actions as above, try cutting and pasting the code below into it
+            // You will then have to write "CalculateTriangle();" here to 'call' it
+            Console.Write("Base: ");
+            float width = float.Parse(Console.ReadLine());
+            Console.Write("Height: ");
+            float height = float.Parse(Console.ReadLine());
+            Console.WriteLine("Area: " + (0.5 * width * height));
         }
 
         static void Questions()

@@ -15,13 +15,22 @@ namespace ProgrammingExercisesIST
             double y = Convert.ToDouble(Console.ReadLine());
 
             // 1. Ask the user which mathematical operation they would like to do
-
+            Console.WriteLine("What operation would you like to do?");
+            Console.WriteLine("1. Add");
+            Console.WriteLine("2. Subtract");
 
             // 2. Store the choice in a string variable
-
+            string operation = Console.ReadLine();
 
             // 3. Use selection (if...else if...else) to print the correct operation
-
+            if(operation == "1")
+            {
+                Console.WriteLine($"X plus Y = {(x + y)}");
+            }
+            else if (operation == "2")
+            {
+                Console.WriteLine($"X minus Y = {(x - y).ToString("F3")}");
+            }
 
             // Wait for any key before exiting
             Console.WriteLine();

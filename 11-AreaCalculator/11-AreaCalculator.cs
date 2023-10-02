@@ -22,22 +22,34 @@ namespace ProgrammingExercisesIST
             if (choice == "1")
             {
                 Console.Write("Radius: ");
-                float radius = float.Parse(Console.ReadLine());
-                Console.WriteLine("Area: " + (Math.PI * Math.Pow(radius,2)));
+                double radius = Convert.ToDouble(Console.ReadLine());
+                double area = Math.PI * Math.Pow(radius, 2);
+                Console.WriteLine($"The area of the circle is {area}");
             }
 
             // 1. Area of rectangle
-
-
-
+            else  if(choice == "2")
+            {
+                Console.Write("Width: ");
+                double width = Convert.ToDouble(Console.ReadLine());
+                Console.Write("Length: ");
+                double length = Convert.ToDouble(Console.ReadLine());
+                // needs finishing
+            }
 
             // 2. Area of triangle
-
-
-
+            else if(choice == "3")
+            {
+                // 1/2 base * height
+                // divide the whole thing by 2
+                // multiply the whole thing by 0.5;
+            }
 
             // 3. Invalid input
+            else
+            {
 
+            }
 
 
 

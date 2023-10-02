@@ -7,11 +7,23 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // 1. Create a method called "SayHello" to print the message "Hello World"
+            MyMethod();
 
+            MyMethod();
 
             // The "Wait" method is called here
             Wait();
 
+            MyMethod();
+
+            Wait();
+
+        }
+
+        private static void MyMethod()
+        {
+            // print message
+            // void = do something, doesn't return any information
         }
 
         static void Wait()

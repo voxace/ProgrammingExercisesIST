@@ -9,15 +9,13 @@ namespace ProgrammingExercisesIST
             // Ask the user to pick a door
             Console.WriteLine("Pick a Door: 1, 2 or 3");
 
+
             // 1. Input and store the result in a string variable
 
-            
 
             /* 2. Use selection (if...else if...else) to print what is behind
                   each door. Make sure to print a warning message if the user 
                   picks something other than 1, 2 or 3.                       */
-
-
 
 
             // Wait at the end

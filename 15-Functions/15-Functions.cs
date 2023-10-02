@@ -14,7 +14,7 @@ namespace ProgrammingExercisesIST
             // 2. Create a variable called "multiplicationResult" of type 'int' and assign it the result of the MultiplyNumbers, passing in x and y
             // 3. Finally, output "multiplicationResult" using Console.WriteLine
 
-
+            int result = MultiplyNumbers(x, y);
 
             // 4. Output the result of the MultiplyNumbers function directly in a Console.WriteLine, using any numbers as the parameters
 
@@ -23,6 +23,13 @@ namespace ProgrammingExercisesIST
             // "Wait" method is called here
             Wait();
         }
+
+        private static int MultiplyNumbers(int x, int y)
+        {
+            int answer = x * y;
+            return answer;
+        }
+
 
 
 
@@ -33,6 +40,12 @@ namespace ProgrammingExercisesIST
         private static int GetNumber()
         {
             Console.Write("Enter number: ");
+            return int.Parse(Console.ReadLine());
+        }
+
+        private static double GetDouble()
+        {
+            Console.Write("Enter decimal number: ");
             return int.Parse(Console.ReadLine());
         }
 

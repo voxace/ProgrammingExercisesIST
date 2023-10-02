@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ProgrammingExercisesIST
 {
@@ -21,7 +22,11 @@ namespace ProgrammingExercisesIST
         // 1. Should return a random adjective. E.g. "a hairy" or "an untalented"
         private static string GetAdjective(Random rnd)
         {
-            
+            List<string> adjectives = new List<string>
+            {
+                "hairy", "untalented"
+            };
+            return adjectives[rnd.Next(adjectives.Count)];
         }
 
         // 2. Should return a random compound adjective. E.g. "no-good" or "big-headed"

@@ -14,7 +14,9 @@ namespace ProgrammingExercisesIST
                 // 1. Create a function that converts km to miles
                 // 2. Output the result of the function
                 // NOTE: You can use the function "GetDistance" before or inside your new function
-
+                double km = GetDistance("Km");
+                double miles = ConvertKmToMiles(km);
+                Console.WriteLine($"That is {miles} miles");
 
             }
             else if (choice == "2")
@@ -32,6 +34,12 @@ namespace ProgrammingExercisesIST
 
             // Wait for key press before exiting
             WaitForKeyPress();
+        }
+
+        private static double ConvertKmToMiles(double km)
+        {
+            double miles = km / 1.6;
+            return miles;
         }
 
         // Asks the user to enter a distance in the unit specified

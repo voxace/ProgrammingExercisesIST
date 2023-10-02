@@ -7,7 +7,8 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // 1. Create a method called "SayHello" to print the message "Hello (name)"
-
+            SayHello("David", 37);
+            SayHello("James", 45);
 
             // Example: The following method takes two integers, adds them and prints the result.
             AddNumbers(3, 7);
@@ -17,6 +18,11 @@ namespace ProgrammingExercisesIST
 
             // The "Wait" method is called here. Notice it takes a colour as a parameter.
             Wait(ConsoleColor.Blue);
+        }
+
+        private static void SayHello(string name, int age)
+        {
+            Console.WriteLine($"Hello {name}, you are {age} years old!");
         }
 
         private static void AddNumbers(int num1, int num2)
