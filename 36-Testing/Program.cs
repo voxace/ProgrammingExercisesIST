@@ -8,14 +8,14 @@ namespace _36_Testing
 {
     internal class Program
     {
-        // GOAL: To learn about FOR loops
+        // USE THIS FILE FOR TESTING AND EXPERIMENTATION
 
         static void Main(string[] args)
         {
-            for (int count = 10; count > 0; count--)
-            {
-                Console.WriteLine(count);
-            }
+            // Write your code here
+
+
+
 
             // Wait for input before ending
             Console.ReadLine();

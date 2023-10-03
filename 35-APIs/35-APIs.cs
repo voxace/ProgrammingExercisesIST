@@ -13,7 +13,7 @@ namespace ProgrammingExercisesIST
         // Challenge: Create a program that can interact with an API
 
         // A sample program that prints out results from Formula 1 races is provided
-        // Plenrt of free API's can be found here: https://github.com/public-apis/public-apis
+        // Plenty of free API's can be found here: https://github.com/public-apis/public-apis
 
         static void Main(string[] args)
         {
