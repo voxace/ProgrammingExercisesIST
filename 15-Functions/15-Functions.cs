@@ -1,39 +1,82 @@
 ﻿using System;
 
+/*
+===============================================================================
+PROJECT 15: FUNCTIONS
+===============================================================================
+Objective:
+- Understand and practice creating functions that return values.
+
+Main Tasks:
+1. Define a Function:
+   - Create a function named `MultiplyNumbers`.
+   - This function should accept two parameters, both of type `int`.
+   - The function should return the product of these two numbers.
+
+2. Call the Function and Store the Result:
+   - Call the `MultiplyNumbers` function, passing the variables `x` and `y` as arguments.
+   - Store the result returned by the function in a new variable named `multiplicationResult` of type `int`.
+
+3. Output the Result:
+   - Use `Console.WriteLine` to output the value of `multiplicationResult` to the console.
+
+4. Direct Output:
+   - Call the `MultiplyNumbers` function again within a `Console.WriteLine` statement, passing any two numbers of your choice as arguments. 
+   - This will output the result directly to the console, bypassing the need for a separate variable.
+
+
+Example:
+- Below is an example function that adds two numbers and returns the result:
+
+    private static int AddNumbers(int num1, int num2)
+    {
+        return num1 + num2;
+    }
+
+    // Usage 1:
+    int additionResult = AddNumbers(9, 6);
+    Console.WriteLine($"9 plus 6 equals {additionResult}");
+
+    // Usage 2:
+    Console.WriteLine($"3 plus 7 equals {AddNumbers(3, 7)}");
+
+Questions:
+1. What is a function?
+2. What does a function do that a method does not?
+3. What does it mean to "return" a value?
+4. What is a return type?
+
+Extension Tasks:
+1. Convert one of the methods from your "AreaCalculator" program into a function.
+2. Write a function called "GetName" that asks for the user's first and last name, then returns the full name as a string.
+
+Additional Resources:
+- Methods: https://www.tutorialspoint.com/csharp/csharp_methods.htm
+- Methods: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods
+- Return Values: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods#return-values
+===============================================================================
+*/
+
 namespace ProgrammingExercisesIST
 {
     class Project_15_Functions
     {
         static void Main(string[] args)
         {
-            // Input two numbers
+            // Get two numbers from the user
             int x = GetNumber();
             int y = GetNumber();
 
-            // 1. Create a function called MultiplyNumbers that takes two integers, multiplies them and returns the result
-            // 2. Create a variable called "multiplicationResult" of type 'int' and assign it the result of the MultiplyNumbers, passing in x and y
-            // 3. Finally, output "multiplicationResult" using Console.WriteLine
+            // Write your code here
 
-            int result = MultiplyNumbers(x, y);
+            
 
-            // 4. Output the result of the MultiplyNumbers function directly in a Console.WriteLine, using any numbers as the parameters
-
-
-
-            // "Wait" method is called here
-            Wait();
+            // "Exit" method is called here
+            Exit();
         }
 
-        private static int MultiplyNumbers(int x, int y)
-        {
-            int answer = x * y;
-            return answer;
-        }
+        // Create your functions here
 
-
-
-
-        // Create your function "MultiplyNumbers" for task 1 here:
 
 
         // This is a function I have written to get a number from the user
@@ -43,64 +86,22 @@ namespace ProgrammingExercisesIST
             return int.Parse(Console.ReadLine());
         }
 
-        private static double GetDouble()
-        {
-            Console.Write("Enter decimal number: ");
-            return int.Parse(Console.ReadLine());
-        }
-
         // This is a method used to wait for any key to be pressed
-        private static void Wait()
+        private static void Exit()
         {
             Console.WriteLine();
-            Console.WriteLine("Press any key to continue...");
+            Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
-        }
-
-        static void Examples()
-        {
-            // Two numbers to use
-            int x = 9;
-            int y = 6;
-
-            // EXAMPLE: Use the function "AddNumbers" and print the result
-            int additionResult = AddNumbers(x, y);
-            Console.WriteLine($"{x} plus {y} equals {additionResult}");
-
-            // EXAMPLE 2: Using "AddNumbers" directly in a Console.WriteLine, with the numbers 3 and 7
-            Console.WriteLine($"3 plus 7 equals {AddNumbers(3, 7)}");
-        }
-
-        // EXAMPLE FUNCTION: This functions takes two numbers, adds them and returns the answer
-        private static int AddNumbers(int num1, int num2)
-        {
-            return num1 + num2;
-        }
-
-        static void Questions()
-        {
-            /* 1. What is a function?
-             * 
-             * 
-             * 
-             * 2. What does a function do that a method does not?
-             * 
-             * 
-             * 
-             */
-        }
-
-        static void ExtensionTasks()
-        {
-            // 1. Try creating extra functions with parameters that do whatever you like
-            // 2. Experiment with different data types for the parameters and return types
-            // 3. Are there any further ways to abstract away the details of this program (e.g. InputAndAddTwoNumbers)?
-        }
-
-        static void Links()
-        {
-            // https://www.tutorialspoint.com/csharp/csharp_methods.htm
-            // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods
         }
     }
 }
+
+/*
+===============================================================================
+FEEDBACK AREA: Paste your AI feedback here before submission:
+===============================================================================
+
+
+
+===============================================================================
+*/

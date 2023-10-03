@@ -1,70 +1,66 @@
 ﻿using System;
 
+/*
+===============================================================================
+PROJECT 14: PARAMETERS
+===============================================================================
+Objective:
+- Understand and practice using parameters in methods.
+
+Main Tasks:
+1. Create a method called "SayHello" to print the message "Hello (name)".
+2. Create a method called "SubtractNumbers" that takes two integers, subtracts one and prints the result.
+3. Create a method called "Exit" that prints the message "Press any key to exit...", then waits for user input.
+
+Example:
+- Below is an example of a method with parameters:
+
+    private static void AddNumbers(int num1, int num2)
+    {
+        int answer = num1 + num2;
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine();
+        Console.WriteLine($"{num1} + {num2} equals {answer}");
+    }
+
+Questions:
+1. What is a parameter?
+2. When writing a method, what two things do you need to supply to create a parameter for it? 
+   E.g. static void MyMethod(firstThing secondThing)
+3. What is the difference between a parameter and an argument?
+
+Extension Tasks:
+1. Update "SayHello" to take two parameters, one for the first name and one for the last name.
+2. Update the "Exit" method to take a ConsoleColor as a parameter, then use it to change the colour of the text.
+3. Write your own methods that takes one or more parameters of various data types.
+
+Additional Resources:
+- Parameters in C#: https://www.tutorialspoint.com/csharp/csharp_value_parameters.htm
+- Passing Parameters: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/passing-parameters
+===============================================================================
+*/
+
 namespace ProgrammingExercisesIST
 {
     class Project_14_Parameters
     {
         static void Main(string[] args)
         {
-            // 1. Create a method called "SayHello" to print the message "Hello (name)"
-            SayHello("David", 37);
-            SayHello("James", 45);
+            // Call the methods here, passing in the required arguments
 
-            // Example: The following method takes two integers, adds them and prints the result.
-            AddNumbers(3, 7);
-
-            // 2. Create a method called "SubtractNumbers" that takes two integers, subtracts one and prints the result
-
-
-            // The "Wait" method is called here. Notice it takes a colour as a parameter.
-            Wait(ConsoleColor.Blue);
         }
 
-        private static void SayHello(string name, int age)
-        {
-            Console.WriteLine($"Hello {name}, you are {age} years old!");
-        }
+        // Write your methods including parameters here
 
-        private static void AddNumbers(int num1, int num2)
-        {
-            int answer = num1 + num2;
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine();
-            Console.WriteLine($"{num1} + {num2} equals {answer}");
-        }
-
-        private static void Wait(ConsoleColor textColor)
-        {
-            Console.ForegroundColor = textColor;
-            Console.WriteLine();
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
-        }
-
-        static void Questions()
-        {
-            /* 1. What is a parameter?
-             * 
-             * 
-             * 
-             * 2. When writing a method, what two things do you need to supply to create a parameter for it?
-             *    E.g. static void MyMethod(firstThing secondThing)
-             * 
-             * 
-             * 
-             */
-        }
-
-        static void ExtensionTasks()
-        {
-            // 1. Try creating extra methods with parameters that do whatever you like
-            // 3. Experiment with multiple parameters and different data types for the parameters
-        }
-
-        static void Links()
-        {
-            // https://www.tutorialspoint.com/csharp/csharp_value_parameters.htm
-            // https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/passing-parameters
-        }
     }
 }
+
+/*
+===============================================================================
+FEEDBACK AREA: Paste your AI feedback here before submission:
+===============================================================================
+
+
+
+===============================================================================
+*/
