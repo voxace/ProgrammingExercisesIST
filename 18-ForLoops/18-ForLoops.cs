@@ -1,5 +1,31 @@
 ﻿using System;
 
+/*
+===============================================================================
+PROJECT 18: FOR LOOPS
+===============================================================================
+Objective:
+- Understand and practice using for loops to execute code a specified number of times.
+
+Main Tasks:
+1. Follow the instructions in the comments within the code below.
+
+Questions:
+1. Explain what each part of the FOR loop does:
+   a) int i = 0;
+   b) i <= 100;
+   c) i++;
+
+Extension Tasks:
+1. Try using user input before the loop starts to control how many times it loops.
+2. Try using selection (if statements) inside the loop to do different things based on the counter.
+
+Additional Resources:
+- FOR Loop in C#: https://www.tutorialspoint.com/csharp/csharp_for_loop.htm
+- FOR Keyword: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/for
+===============================================================================
+*/
+
 namespace ProgrammingExercisesIST
 {
     class Project_18_ForLoops
@@ -48,59 +74,6 @@ namespace ProgrammingExercisesIST
             WaitAtEnd();
         }
 
-        static void ExtensionTasks()
-        {
-            // 1. Try using  user input before the loop starts to control how many times it loops 
-            // 2. Try using selection (if statements) inside the loop to do different things based on the counter
-        }
-
-        static void Questions()
-        {
-            /* 1. Explain what each part of the FOR loop does:
-             * a) int i = 0;
-             * 
-             * 
-             * 
-             * b) i <= 100;
-             * 
-             * 
-             * 
-             * c) i++
-             * 
-             * 
-             * 
-             */     
-        }
-
-        static void Examples()
-        {
-            // Some example FOR loops: Notice that the counter variable can be called anything
-
-            // This is an example of creating a loop that print the numbers from 1 to 10
-            for (int num = 1; num < 11; num++)
-            {
-                Console.WriteLine(num);
-            }
-
-            // This is an example of creating a loop that print the numbers from 10 down to 1
-            for (int whatever = 10; whatever > 0; whatever--)
-            {
-                Console.WriteLine(whatever);
-            }
-
-            // This is an example of incrementing (stepping) by more than one
-            for (int x = 0; x < 10; x += 3)
-            {
-                Console.WriteLine(x);
-            }
-        }
-
-        static void Links()
-        {
-            // https://www.tutorialspoint.com/csharp/csharp_for_loop.htm
-            // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/for
-        }
-
         private static void WaitAtEnd()
         {
             Console.ForegroundColor = ConsoleColor.Red;
@@ -120,3 +93,12 @@ namespace ProgrammingExercisesIST
         }
     }
 }
+/*
+===============================================================================
+FEEDBACK AREA: Paste your AI feedback here before submission:
+===============================================================================
+
+
+
+===============================================================================
+*/
