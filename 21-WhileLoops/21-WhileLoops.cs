@@ -1,5 +1,40 @@
 ﻿using System;
 
+/*
+===============================================================================
+PROJECT 21: WHILE LOOPS
+===============================================================================
+Objective:
+- Understand and practice using while loops for repeated tasks.
+
+Example:
+- Here is an example while loop:
+
+    int count = 1;
+    while(count < 11)
+    {
+        Console.WriteLine(count);
+        count++;
+    }
+
+Main Tasks:
+1. Correct the condition in the provided while loop so that the user can only proceed with a number less than 100.
+2. Implement a while loop that requires the user to enter a correct password before displaying a secret message.
+
+Questions:
+1. What is the shortcut for creating a WHILE loop?
+2. When would you use a WHILE loop?
+
+Extension Tasks:
+1. Extend the first task by also ensuring that the number is also greater than 1.
+2. Try re-creating Fizz Buzz using a WHILE loop.
+
+Additional Resources:
+- While Loops in C#: https://www.tutorialspoint.com/csharp/csharp_while_loop.htm
+- While Statement: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while
+===============================================================================
+*/
+
 namespace ProgrammingExercisesIST
 {
     class Project_21_WhileLoops
@@ -11,12 +46,11 @@ namespace ProgrammingExercisesIST
             // 1. Fix the condition of the WHILE loop so that the program works
             Console.WriteLine("Please enter a number less than 100 to continue...");
             int number = int.Parse(Console.ReadLine());
-            while(number == 7)
+            while (????)
             {
                 Console.WriteLine("Incorrect input, try again...");
                 number = int.Parse(Console.ReadLine());
             }
-
 
             WaitBetween("WHILE loop to password protect a secret message: ");
 
@@ -25,58 +59,8 @@ namespace ProgrammingExercisesIST
 
 
 
-
             // Wait at end
             WaitAtEnd();
-        }
-
-        static void ExtensionTasks()
-        {
-            // 1. Extend the first task by also ensuring that the number is greater than 1 
-            // 2. Try re-creating Fizz Buzz using a WHILE loop
-        }
-
-        static void Questions()
-        {
-            /* 1. What is the shortcut for creating a WHILE loop?
-             * 
-             * 
-             * 
-             * 2. When would you use a WHILE loop?
-             * 
-             * 
-             * 
-             */ 
-        }
-
-        static void Example()
-        {
-            // This is an example of creating a WHILE loop that goes from 1 to 10
-            // Notice that you need to initialise your own counter variable and increment it
-
-            int count = 1;
-            while(count < 11)
-            {
-                Console.WriteLine(count);
-                count++;
-            }
-
-            // As you can tell, FOR loops are generally easier for counting
-            // This is an example of where a WHILE loop might be handy
-
-            string password = Console.ReadLine();
-            while(password != "hunter2")
-            {
-                Console.WriteLine("Invalid password. Try again: ");
-                password = Console.ReadLine();
-            }
-            Console.WriteLine("Login Successful!");
-        }
-
-        static void Links()
-        {
-            // https://www.tutorialspoint.com/csharp/csharp_while_loop.htm
-            // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/while
         }
 
         private static void WaitAtEnd()
@@ -98,3 +82,13 @@ namespace ProgrammingExercisesIST
         }
     }
 }
+
+/*
+===============================================================================
+FEEDBACK AREA: Paste your AI feedback here before submission:
+===============================================================================
+
+
+
+===============================================================================
+*/
