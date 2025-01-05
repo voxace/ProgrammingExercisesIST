@@ -34,18 +34,8 @@ namespace ProgrammingExercisesIST
         static void Main(string[] args)
         {
             // Your code goes below here
-            
+
 
         }
     }
 }
-
-/*
-===============================================================================
-FEEDBACK AREA: Paste your AI feedback here before submission:
-===============================================================================
-
-
-
-===============================================================================
-*/

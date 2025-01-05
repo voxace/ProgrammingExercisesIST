@@ -153,12 +153,3 @@ namespace ProgrammingExercisesIST
         }
     }
 }
-/*
-===============================================================================
-FEEDBACK AREA: Paste your AI feedback here before submission:
-===============================================================================
-
-The lesson has been re-organized to align with the specified format. Global variables are grouped together at the top of the class. The Main method now follows a clear, linear flow which improves readability and understanding for students. The repetitive code within UserTurn, ComputerTurn, and DetermineWinner methods has been reduced, making the code more elegant and less confusing. The simpler code structure should help students focus on understanding the logic of the game rather than getting lost in the details of the code.
-
-===============================================================================
-*/

@@ -28,6 +28,8 @@ namespace ProgrammingExercisesIST
         {
             // Your code here
 
+
+
         }
 
         // Functions for menu and calculations
@@ -79,13 +81,3 @@ namespace ProgrammingExercisesIST
         }
     }
 }
-
-/*
-===============================================================================
-FEEDBACK AREA: Paste your AI feedback here before submission:
-===============================================================================
-
-
-
-===============================================================================
-*/

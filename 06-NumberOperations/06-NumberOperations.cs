@@ -30,10 +30,10 @@ Example:
     7
     Please enter a number for Y:
     3
-    X plus Y = 10
-    X times Y = 21
-    X minus Y = 4
-    X divided by Y = 2.333333
+    7 plus 3 = 10
+    7 times 3 = 21
+    7 minus 3 = 1
+    7 divided by 3 = 2.333333
 
 Additional Resources:
 - Convert.ToDouble: https://www.tutorialspoint.com/convert-tosingle-method-in-chash
@@ -50,20 +50,12 @@ namespace ProgrammingExercisesIST
         {
             // How to input a number from the user and store it in a variable 'x'
             Console.WriteLine("Please enter a number for X:");
-            double x = Convert.ToDouble(Console.ReadLine());
+            string x = Console.ReadLine();
 
             // Your code goes below here
+
+
 
         }
     }
 }
-
-/*
-===============================================================================
-FEEDBACK AREA: Paste your AI feedback here before submission:
-===============================================================================
-
-
-
-===============================================================================
-*/
